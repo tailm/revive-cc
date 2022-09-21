@@ -5,12 +5,13 @@ The tool is an extension of the open source Go static analysis tool <a href="htt
 
 ## Installation
 ```
-1. Place folder in the your $GOPATH/src/github.com/youraccount
-2. Go into directory sivachokkapu/revive-cc
-3. $ make install
-4. $ make build
-5. Move the revive file into $GOPATH/bin
-6. You should now be able to use revive commands
+1. $ cd $GOPATH/src/github.com/youraccount
+2. $ mkdir sivachokkapu/
+3. $ git clone https://github.com/tailm/revive-cc.git
+4. $ make install
+5. $ make build
+6.$ Move revive $GOPATH/bin/.
+7.You should now be able to use revive commands
 ```
 
 ## Usage
