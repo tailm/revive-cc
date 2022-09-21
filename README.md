@@ -1,7 +1,7 @@
-# revive^CC
-**`revive^CC`** is a static analysis tool for Hyperledger Fabric smart contracts (chaincode) aimed at detecting blockchain related security vulnerabilities to help developers to write clean and safe smart contracts. **`revive^CC`** is one of the two existing static analysis tools for Hyperledger Fabric chaincode, with the other tool being <a href="https://chaincode.chainsecurity.com/">Chainsecurity's Chaincode Scanner</a> which can analyse chaincode files that meet certain requirements. What makes **`revive^CC`** special is that the tool has brought the accessibility of security analysis to ***any chaincode file***. This is something that has not been available until now.
+# revive
+**`revive`** is a static analysis tool for Hyperledger Fabric smart contracts (chaincode) aimed at detecting blockchain related security vulnerabilities to help developers to write clean and safe smart contracts. **`revive`** is one of the two existing static analysis tools for Hyperledger Fabric chaincode, with the other tool being <a href="https://chaincode.chainsecurity.com/">Chainsecurity's Chaincode Scanner</a> which can analyse chaincode files that meet certain requirements. What makes **`revive`** special is that the tool has brought the accessibility of security analysis to ***any chaincode file***. This is something that has not been available until now.
 
-The tool is an extension of the open source Go static analysis tool <a href="https://github.com/mgechev/revive">revive</a> and was built using revive's framework. Therefore it contains all the benefits and checks of revive to help developers write clean Go code. **`revive^CC`** was built as a part of my dissertation project on 'Analysing Smart Contracts' at the University of Sheffield.
+The tool is an extension of the open source Go static analysis tool <a href="https://github.com/mgechev/revive">revive</a> and was built using revive's framework. Therefore it contains all the benefits and checks of revive to help developers write clean Go code. **`revive`** was built as a part of my dissertation project on 'Analysing Smart Contracts' at the University of Sheffield.
 
 
 ## Installation
@@ -31,7 +31,7 @@ $ revive - on a directory will analyse all files if from the same package
 <p align="center">
   <img src="./assets/performance.PNG" alt="" width="600">
 </p>
-To evaluate the performance of revive^CC, a variety of real case chaincode files were found which each contained vulnerabilities. A total of 20 public chaincode files were obtained for the evaluation from GitHub repositories. All these files were verified and the following vulnerabilities were reported. The performance was then compared with Chainsecurity's Chaincode Scanner which was only able to verify 13 out of the 20 files. Overall, revive^CC was able to detect more vulnerabilities (please note as revive^cc is able detect more true positives it also detects slightly more false positives).
+To evaluate the performance of revive, a variety of real case chaincode files were found which each contained vulnerabilities. A total of 20 public chaincode files were obtained for the evaluation from GitHub repositories. All these files were verified and the following vulnerabilities were reported. The performance was then compared with Chainsecurity's Chaincode Scanner which was only able to verify 13 out of the 20 files. Overall, revive was able to detect more vulnerabilities (please note as revive is able detect more true positives it also detects slightly more false positives).
 
 ## Detectable vulnerabilities
 
