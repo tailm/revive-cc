@@ -5,8 +5,8 @@ The tool is an extension of the open source Go static analysis tool <a href="htt
 
 ## Installation
 ```
-1. $ cd $GOPATH/src/github.com/youraccount
-2. $ mkdir sivachokkapu/
+1. $ cd $GOPATH/src/github.com/
+2. $ mkdir tailm/
 3. $ git clone https://github.com/tailm/revive-cc.git
 4. $ make install
 5. $ make build
